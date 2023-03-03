@@ -1,1 +1,129 @@
 /* Write your CSS here! */
+body {
+	width: 100%;
+	margin: 0 auto;
+	background-color: white;
+}
+
+p {
+    font-family: 'Syne', sans-serif;
+    font-size: 1.25em;
+}
+
+h1, h2, h3 {
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 300;
+    font-style: italic;
+}
+
+h1 {
+    font-size: 1.5em;
+}
+
+h2, h3 {
+    font-size: 2.5em;
+}
+
+.container {
+    max-width: 1200px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+article {
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+#about {
+    text-align: center;
+}
+
+#gallery {
+    background-color: #f1e6df;
+    max-width: 100% !important;
+    padding-top: 1.25em;
+    padding-bottom: 1.25em;
+    margin-bottom: 150px;
+    text-align: center;
+}
+
+.innerContainer {
+    max-width: 1200px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 50px;
+    height: 300px;
+}
+
+nav ul li {
+	display: inline-block;
+    padding-top: 15px;
+	font-size: 1.5em;
+    padding-left: 30px;
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.navColumn {
+    float: left;
+    width: 20%;
+}
+
+.leftColumn {
+    float: left;
+    width: 40%;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.historyLeftColumn {
+    float: left;
+    width: 70%;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.historyRightColumn {
+    float: right;
+    width: 20%;
+    padding-left: 25px;
+    padding-right: 25px;
+    vertical-align: middle;
+}
+
+.rightColumn {
+    float: right;
+    width: 40%;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+img {
+    filter: drop-shadow(0 0 0.75rem grey);
+}
+
+.fourColumn {
+    float: left;
+    width: 25%;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+footer {
+    padding: 24px 60px;
+    justify-content: space-between;
+    background-color: #f1e6df;
+    height: 90px;
+    text-align: center;
+}
+
+#icon {
+    display: block;
+    width: 40px;
+}
